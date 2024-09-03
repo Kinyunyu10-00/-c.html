@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dash.css" />
+ 
+  </head>
+  <body>
+    <div class="main" i>
+      <div class="sub">
+        <h4 onclick="changetext(this)">ADD STUDENT</h4>
+        <form action="post">
+          <input type="text" placeholder="name of student"id="name" /><br />
+          <input type="number" placeholder="class" /><br />
+          <input type="text" placeholder="stream" /><br />
+          <input type="number" placeholder="reg number" /><br />
+          <div class="loo">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+           <button class="cancel" id="hh">cancel</button>
+
+           <button id="mybtn" onclick="displaydate()">try date of today</button>
+
+           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M840-680v480q0 33-23.5 56.5T760-120H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h480l160 160Zm-80 34L646-760H200v560h560v-446ZM480-240q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM240-560h360v-160H240v160Zm-40-86v446-560 114Z"/></svg>
+            <button class="yy" id="button">save</button>
+          </div>
+         <p id="demo"></p>
+         <input type="button" value="learn more on js" onclick="newDoc()">
+        </form>
+      </div>
+
+      <div class="content">
+      
+        <div class="LO">
+          <div id="rt">
+            <h3>total</h3>
+            <p>400</p>
+          </div>
+
+          <div>
+            <p>search here.........<button class="search">search</button></p>
+          </div>
+        </div>
+        <div class="items">
+          <!--<table>
+            <tr>
+              <th>name of student</th>
+              <th>class</th>
+              <th>stream</th>
+              <th>reg number</th>
+            </tr>
+            <tr>
+              <td>ALLY HAMIS</td>
+              <td>IV </td>
+              <td>C</td>
+              <td></td>
+            </tr>
+           
+          </table>---->
+          <table>
+            <thead>
+              <tr>
+                <th>ID#</th>
+                <th>NAME OF STUDENT</th>
+                <th>CLASS</th>
+                <th>STREAM</th>
+                <th>REG NUMBER</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+   
+    
+  </body>
+  
+  <script src="dash.js"></script>
+
+</html>

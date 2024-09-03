@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(16, 65, 144);
+  
+    color: antiquewhite;
+}
+.main{
+    display: grid;
+    grid-template-columns:59% 1fr ;
+}
+input{
+    background-color: black;
+    color: whitesmoke;
+    height: 2rem;
+    width: 19rem;
+    border-radius: 3rem;
+    padding: 1%;
+
+}
+form{
+    padding: 3%;
+    
+}
+button{
+    background-color: blue;
+    height: 3rem;
+   border: 3px solid yellow;
+  
+    color: lightblue;
+}
