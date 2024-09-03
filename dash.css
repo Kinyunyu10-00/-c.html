@@ -1,0 +1,65 @@
+.main{
+    background-color: rgb(13, 77, 196);
+    display: grid;
+    grid-template-columns: 34% 1fr 1fr;
+}
+
+
+.sub{
+    background-color: rgb(5, 42, 146);
+}
+p{
+    background-color: beige;
+    color: rgb(51, 48, 48);
+}
+.lo{
+    display: flex;
+    flex-direction: row;
+}
+
+td, th{
+    border: 3px solid green;
+}
+input{
+    margin-top: 2%;
+    width: 68%;
+}
+table{
+    background-color: rgb(189, 189, 219);
+}
+button{
+  margin-right: auto;
+   height: 2rem;
+   border-radius: 7px;
+
+}
+input{
+    height: 2rem;
+    border-radius: 7px;
+  
+    margin-left: 3%;
+}
+.loo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+   
+}
+.sub .cancel{
+    background-color: rgb(230, 33, 33);
+}
+.sub .yy{
+    width: 3.5rem;
+    margin-right: 28%;
+    background-color: rgb(30, 166, 230);
+    color: white;
+}
+h4 ,h3{
+    margin-left: 4%;
+    color: white;
+}
+.search{
+    margin-left: 9.1rem;
+}
